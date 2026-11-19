@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Frank | Frontend Developer</title>
+</head>
+<body>
+    <header class="site-header">
+        <a href="#" class="logo">Frank<span>.</span></a>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+<main>
+    <section class="hero">
+        <div class="hero-text">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Frank Amo-Broni</h1>
+            <p class="lead">I'm a frontend developer in Kumasi. I design and build websites that are clear, fast and easy to use.</p>
+            <div class="buttons">
+                <a href="#projects" class="btn">See my work</a>
+                <a href="#contact" class="btn btn-outline">Contact me</a> 
+            </div>
+        </div>
+        <img src="./image/me-web.jpg" alt="Portrait of Frank Amo-Broni" class="hero-photo">
+    </section>
+
+    <section id="about" class="about">
+        <h2>About me</h2>
+        <p>I am a frontend developer with a passion for creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and various frontend frameworks. I enjoy working on projects that challenge me to learn new skills and improve my craft.</p>
+        <ul class="skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Graphic Design</li>
+            <li>Git</li>
+        </ul>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="cards">
+            <article class="card">
+                <img loading="lazy" decoding="async" src="./image/project-1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>A church annual thanksgiving flyer.</p>
+            </article>
+            <article class="card">
+                <img loading="lazy" decoding="async" src="./image/project-2-web.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>The apostolic church Ghana banner.</p>
+            </article>
+            <article class="card">
+                <img loading="lazy" decoding="async" src="./image/Project-3-web.jpg" alt="Project 3">
+                <h3>Project 3</h3>
+                <p>Frankygraphics banner showing all the services offered.</p>
+            </article>
+            <article class="card">
+                <img loading="lazy" decoding="async" src="./image/project-4-web.jpg" alt="Project 4">
+                <h3>Project 4</h3>
+                <p>A simple business card design.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Let's work together</h2>
+        <form class="contact-form">
+            <div class="contact-field">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" autocomplete="name" required>
+            </div>
+            <div class="contact-field">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+            <div class="contact-field">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+</main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Frank Amo-Broni. All rights reserved.</p>
+    </footer>
+</body>
+</html>
