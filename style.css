@@ -50,17 +50,16 @@ section,
     align-items: center;
     gap: 0.75rem 1.5rem;
     padding-block: 1.25rem;
-    background: white;
+    background: #800020;
 }
 
 .logo {
     font-size: 1.75rem;
     font-weight: 700;
-    color: var(--navy);
+    color: #fff;
     text-decoration: none;
 }
 
-.logo span,
 .eyebrow {
     color: var(--green);
 }
@@ -73,7 +72,7 @@ nav {
 }
 
 nav a {
-    color: var(--navy);
+    color: #fff;
     text-decoration: none;
     font-weight: 600;
 }
@@ -161,7 +160,7 @@ h2 {
 }
 
 .about {
-    background: white;
+    background: #F3E6D5;
 }
 
 .about p {
@@ -192,7 +191,7 @@ h2 {
 
 .card {
     min-width: 0;
-    background: white;
+    background: #FFF9F2;
     border-radius: 0.875rem;
     overflow: hidden;
     box-shadow: 0 6px 20px rgb(31 42 68 / 8%);
@@ -271,8 +270,8 @@ h2 {
 }
 
 .site-footer {
-    background: var(--navy);
-    color: white;
+    background: var(--#D45060);
+    color: #0c0a0a;
     text-align: center;
     padding-block: 1.5rem;
 }
@@ -281,15 +280,17 @@ h2 {
     margin: 0;
 }
 
+/* phone */
 @media (max-width: 60rem) {
     .cards {
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 }
 
-@media (max-width: 43.75rem) {
+@media (max-width: 700px) {
     .site-header {
         flex-direction: column;
+        gap: 12px;
     }
 
     .hero {
